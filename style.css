@@ -1,0 +1,107 @@
+body{  background-color:rgb(255, 255, 255);
+    box-shadow: rgb(31, 31, 31);
+    
+
+}
+.logo{
+background-color: black
+}
+.dentro{
+background-color: rgb(255, 0, 0);
+height: 30px;
+}
+a{
+text-decoration: none;
+color: rgb(255, 217, 0);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+padding: 15px;
+margin-top: 20px;
+}
+.botao{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 30px;
+}
+.imagem1{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 221px;
+}
+.imagem2e3{
+display: flex;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+height: 200px;
+justify-content: center;
+}
+.sobre{
+width: 800px;
+height: 200px;
+
+}
+.img1{
+ margin-right: 200px;
+ width: 400px;
+ height: 215px;
+ margin-left:-500px ;
+ border-radius: 10px;
+}
+
+p{
+margin-top: 59px;
+font-size: 18px;
+color: rgb(0, 0, 0);
+}
+.img2{
+ width: 600px;
+ height: 700px;
+ margin: 30px;
+ margin-left:-20px;
+ border-radius: 20px;
+}
+.img3{
+width: 1000px;
+display: flex;
+justify-content: center;
+margin: 20px;
+margin-right: 200px;
+height: 500px;
+border-radius: 30px;
+}
+.img1{
+    margin-right: 200px; 
+     width: 400px;
+     height: 215px;
+     border-radius: 8px;
+     margin-left: -500px;
+ }
+ /* From Uiverse.io by TimTrayler */ 
+button {
+    --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
+    --accent: fuchsia;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #212121;
+    cursor: pointer;
+    color: white;
+    padding: 1em 2em;
+    transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s,
+      letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+    box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
+  }
+  
+  button:hover {
+    box-shadow: var(--hover-shadows);
+  }
+  
+  button:active {
+    box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+    background-color: var(--accent);
+    transform: scale(0.95);
+  }
+  

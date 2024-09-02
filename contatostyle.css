@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    color: white;
+}
+
+.header img {
+    width: 15%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.nav ul li a:hover {
+    color: purple;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    color: black;
+    padding: 5px;
+    background-color: rgb(0, 123, 255);
+    width: 20vw;
+    border: black solid;
+    box-shadow: black 2px 2px;
+    border-radius: 10px;
+}
+form input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+form textarea {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+form label {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+form button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+form button:hover {
+    background-color: rgb(154, 153, 154);
+}
+.formpai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    justify-content:center ;
+    align-items: center;
+
+}
+.maerodape{
+    display: flex;
+    justify-content: bottom;
+}
